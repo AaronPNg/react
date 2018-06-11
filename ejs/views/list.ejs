@@ -1,0 +1,17 @@
+<ul>
+    <h1><%=data.groceries[0].store%></h1>
+    <%for (var iterator in data.groceries[0].list){%>
+        <li>
+            <%=iterator%>: <%=data.groceries[0].list[iterator]%>
+        </li>
+    <%}%>
+
+    <br/>
+
+    <h1><%=data.groceries[1].store%></h1>
+    <%for (var iterator in data.groceries[1].list){%>
+        <li>
+            <%=iterator%>: <%=data.groceries[1].list[iterator]%>
+        </li>
+    <%}%>
+</ul>
